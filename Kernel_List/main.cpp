@@ -20,6 +20,7 @@ int main() {
     p2->age=2;
     p1->node.next=&p2->node;
     l* head;
+    printf("fdas");
     head=&p1->node;
     p2->node.next=0;
     l* tmp=head;
